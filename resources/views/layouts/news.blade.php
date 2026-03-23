@@ -29,7 +29,7 @@
             }
 
             .form-input-error {
-                @apply border-red-500 text-sm text-red-600;
+                @apply mt-1 text-sm text-red-500;
             }
             .link-primary {
                 @apply text-indigo-600 hover:underline;

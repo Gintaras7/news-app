@@ -15,7 +15,7 @@
                 class="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm border p-2
                 @error('title') border-red-500 @enderror">
             @error('title')
-            <p class="mt-1 form-input-error">{{ $message }}</p>
+            <p class="form-input-error">{{ $message }}</p>
             @enderror
         </div>
 
@@ -25,7 +25,7 @@
                 class="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm border p-2
                 @error('content') border-red-500 @enderror">{{ old('content') }}</textarea>
             @error('content')
-            <p class="mt-1 form-input-error">{{ $message }}</p>
+            <p class="form-input-error">{{ $message }}</p>
             @enderror
         </div>
 
