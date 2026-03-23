@@ -20,7 +20,7 @@ use Illuminate\Support\Str;
  * @property string $excerpt
  * @property Carbon $created_at
  * @property Carbon $updated_at
- * @property Carbon $deleted_at
+ * @property Carbon|null $deleted_at
  */
 #[UseFactory(ArticleFactory::class)]
 class Article extends Model
